@@ -26,4 +26,5 @@ public interface TaskService {
 
     List<TaskDTO> listAllNonCompletedByAssignedEmployee(UserDTO assignedEmployee);
 
+
 }

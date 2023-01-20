@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 @EntityListeners(BaseEntityListener.class)
 public class BaseEntity {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

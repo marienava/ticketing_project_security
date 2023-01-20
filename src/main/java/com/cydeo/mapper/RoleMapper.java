@@ -22,4 +22,5 @@ public class RoleMapper {
         return modelMapper.map(entity,RoleDTO.class);
     }
 
+
 }

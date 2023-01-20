@@ -38,6 +38,7 @@ public class UserServiceImpl implements UserService {
         return userList.stream().map(userMapper::convertToDto).collect(Collectors.toList());
     }
 
+
     @Override
     public UserDTO findByUserName(String username) {
         User user = userRepository.findByUserNameAndIsDeleted(username, false);

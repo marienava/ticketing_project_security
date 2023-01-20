@@ -3,3 +3,6 @@ WORKDIR usr/app
 COPY  .  .
 ENTRYPOINT ["mvn","spring-boot:run"]
 
+
+
+
